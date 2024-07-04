@@ -1,12 +1,15 @@
-# Welcome to your CDK TypeScript project
+# CDK + CodeCommit + CodeBuild + CodePipeline + ECR
 
-This is a project for CDK development with TypeScript.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+This is a project for Deploying Lambda functions.
 
 ## Diagrams
 
 ![AWS Diagrams](/drawio/cicd-lambda-cdk.svg)
+
+## Run pipeline
+
+Add buildspec.yml to your project and push to CodeCommit.
+Refer to `buildspec_sample.yml`.
 
 ## Useful commands
 
